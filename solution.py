@@ -3,7 +3,7 @@ from socket import *
 # In order to terminate the program
 import sys
 
-def webServer(port=13331):
+def webServer(port=6789):
   serverSocket = socket(AF_INET, SOCK_STREAM)
   
   #Prepare a server socket
