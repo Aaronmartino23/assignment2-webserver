@@ -61,4 +61,4 @@ def webServer(port=6789):
   #sys.exit()  # Terminate the program after sending the corresponding data
 
 if __name__ == "__main__":
-  webServer(13331)
+  webServer(6789)
