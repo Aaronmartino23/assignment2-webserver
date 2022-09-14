@@ -3,7 +3,7 @@ from socket import *
 # In order to terminate the program
 import sys
 
-def webServer(port=6789):
+def webServer(port=13331):
   serverSocket = socket(AF_INET, SOCK_STREAM)
   
   #Prepare a server socket
@@ -61,4 +61,4 @@ def webServer(port=6789):
   #sys.exit()  # Terminate the program after sending the corresponding data
 
 if __name__ == "__main__":
-  webServer(6789)
+  webServer(13331)
